@@ -32,3 +32,15 @@ const filer = document.querySelectorAll(".fileopener");
 filer.forEach((f) => {
   f.onclick = () => { goto(f.dataset.file, f.dataset.line); };
 });
+
+
+// TIKTOK CODE START HERE
+
+var value = 1000;
+var currency = "USD";
+var SKU = "ECABCCCCEDO";
+
+
+document.getElementById("value").innerHTML = value;
+document.getElementById("currency").innerHTML = currency;
+document.getElementById("SKU").innerHTML = SKU;
