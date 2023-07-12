@@ -29,7 +29,13 @@
       Each element is defined using tags, like this <div></div>
       The attributes like class="wrapper" let us style elements in the CSS
     -->
-    
+    <img id="product_img" width="400" height="400"/>
+    <div>
+      Title: <p id="title"> </p>
+    </div>
+    <div>
+      Description: <p id="description"> </p>
+    </div>
     <div>
       Cart Value: <p id="value"> </p>
     </div>
@@ -43,13 +49,28 @@
     </div>
     
     <div>
+      Event_id: <p id="event_id"> </p>
+    </div>
+    
+    <button id="refresh_button">
+         Refresh
+    </button>
+    
+    <div>
+      Email: <input id="user_email" onchange="set_user_email()"> 
+    </div>
+    
+    
+    <div>
       PAYMENT INFO: XXXXXXXXXXXXXXX
     </div>
-    <a href="/ThankYou.html">
-      <button>
-          Buy!!!!
+    <div>
+      <button id="buy">
+            Buy!!!!
       </button>
-    </a>
+    </div>
+    
+    <img id="wait"/>
     
     
     
@@ -59,7 +80,6 @@
       
       <a
         class="btn--remix"
-        target="_top"
         href="/index.html"
       >
         <img
